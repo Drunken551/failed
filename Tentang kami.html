@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThreeBle</title>
+    <link rel="icon" type="image/x-icon" href="image/logo .png">
+    <style>
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #35424a;
+            color: #ffffff;
+            padding: 20px 0;
+            border-bottom: #e8491d 3px solid;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header a {
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header #branding {
+            display: flex;
+            align-items: center;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        header nav li {
+            margin-left: 20px;
+        }
+        header nav ul {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        header .highlight, header .current a {
+            color: #e8491d;
+            font-weight: bold;
+        }
+        .about-us {
+            background-color: #f9f9f9;
+            padding: 60px 0;
+        }
+        .about-us .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .about-us-content {
+            flex-basis: 60%;
+            padding-right: 40px;
+        }
+        .about-us-image {
+            flex-basis: 35%;
+            text-align: center;
+        }
+        .about-us-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .about-us h2 {
+            color: #35424a;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .about-us p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+        .highlight-box {
+            background-color: #e8491d;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .highlight-box h3 {
+            margin-top: 0;
+        }
+        @media (max-width: 768px) {
+            .about-us .container {
+                flex-direction: column;
+            }
+            .about-us-content, .about-us-image {
+                flex-basis: 100%;
+                padding-right: 0;
+            }
+            .about-us-image {
+                margin-top: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">ThreeBle</span>Shoulder bag </h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Shoulde bag.html">Beranda</a></li>
+                    <li class="current"><a href="Tentang kami.html">Tentang Kami</a></li>
+                    <li><a href="Kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="about-us">
+        <div class="container">
+            <div class="about-us-content">
+                <h2>Tentang ThreeBle</h2>
+                <p><strong>ThreeBle</strong> adalah pelopor inovasi dalam industri fashion berkelanjutan. Kami berfokus pada pengolahan limbah fashion menjadi produk shoulder bag yang inovatif dan ramah lingkungan, didukung oleh teknologi digital.</p>
+                <p>Misi kami adalah mengurangi dampak negatif industri fashion terhadap lingkungan sambil menciptakan produk berkualitas tinggi yang memenuhi kebutuhan gaya hidup modern.</p>
+                <div class="highlight-box">
+                    <h3>Komitmen Kami:</h3>
+                    <ul>
+                        <li>Menggunakan bahan daur ulang dari limbah fashion</li>
+                        <li>Menerapkan prinsip 3R: Reuse, Reduce, Recycle</li>
+                        <li>Menciptakan desain timeless dengan kualitas terbaik</li>
+                        <li>Memanfaatkan teknologi digital untuk kustomisasi dan pemasaran</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="about-us-image">
+                <img src="image/about us.jpg" alt="ThreeBle Sustainable Fashion">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>ThreeBle &copy; ArtBag</p>
+    </footer>
+
+</body>
+</html>
